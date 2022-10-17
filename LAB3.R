@@ -124,7 +124,6 @@ summary_table = tibble() # this creates an empty table
 
 for(row in 1:nrow(brca1_data_subset)){  
   print(row)
-  # other commands to do the actual analysis for this row of the table
   
   # extract the Gene_stable_ID for the node2 gene
   node2_gene = brca1_data_subset$Gene_stable_ID[row]
